@@ -3,9 +3,10 @@
   --bg: hsl(0, 20%, 60%);
   --main-brand: hsl(0, 50%, 60%);
   --activeted-brand: hsl(0, 90%, 60%);
-  --acccent-color: hsl(10,100%,60%)
+  --acccent-color: hsl(10, 100%, 60%);
   --contrast: hsl(219, 73%, 61%);
-  --purple: hsla(hsla(266, 100%, 64%, 1))
+  --purple: hsla((266, 100%, 64%, 1));
+  --outline-1: red 2px dashed;
 }
 
 html,
@@ -141,4 +142,5 @@ body {
   width: 320px;
   margin: 0 auto;
   padding: 0 10px;
+  outline: var(--outline-1);
 }
