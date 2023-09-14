@@ -1,0 +1,7 @@
+.default-btn {
+  background-color: var(--main-brand);
+  padding: 10px;
+}
+.default-btn:hover {
+  background-color: var(--activeted-brand);
+}
