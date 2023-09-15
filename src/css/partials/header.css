@@ -23,3 +23,45 @@
 .hamburger-icon-svg {
   cursor: pointer;
 }
+
+.hero-section {
+  background-image: url('/src/images/header/kropki-mobile.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+.main-title {
+  color: white;
+  font-family: Seymour One;
+  font-size: 26px;
+  text-wrap: balance;
+  letter-spacing: 1.04px;
+  text-transform: uppercase;
+}
+
+.hero-btn {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 20px;
+  margin-block: 10px;
+}
+
+.hero-btn-item {
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  border: 2px yellow solid;
+  border-radius: 10px;
+}
+
+.hero-img {
+  width: 220px;
+  height: 200px;
+  scale: 1.5;
+  position: relative;
+  top: 25px;
+  left: 40px;
+}
