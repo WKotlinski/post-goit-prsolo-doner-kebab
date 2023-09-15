@@ -1,0 +1,56 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.about-section h3 {
+  color: #fcfcfc;
+  text-align: center;
+  font-family: Seymour One;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.about-parag {
+  color: #fcfcfc;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.img__cow {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-block: 15px;
+  box-shadow: 0px -10px 0px yellow, 0px -11px 2px green;
+}
+
+.made-parag {
+  width: 220px;
+  color: #fcfcfc;
+  text-align: center;
+  font-size: 12px;
+  line-height: 176%; /* 21.12px */
+  letter-spacing: 0.48px;
+}
+
+.btn__readmore {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px; /* 128.571% */
+  color: black;
+  fill: black;
+  padding: 12px 34px;
+  background-color: yellow;
+  border: none;
+  border-radius: 10px;
+  margin-block: 15px;
+}
