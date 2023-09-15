@@ -5,3 +5,21 @@
 .default-btn:hover {
   background-color: var(--activeted-brand);
 }
+.navigation-bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__menu {
+  display: none;
+}
+
+.icon-logo-svg {
+  margin: 5px;
+  cursor: pointer;
+  fill: white;
+}
+
+.hamburger-icon-svg {
+  cursor: pointer;
+}
