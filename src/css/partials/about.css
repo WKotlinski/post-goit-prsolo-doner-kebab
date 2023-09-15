@@ -1,0 +1,18 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.img__cow {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-block: 15px;
+  box-shadow: 0px -10px 0px yellow, 0px -11px 2px green;
+}
+
+.made-parag {
+  width: 220px;
+}
