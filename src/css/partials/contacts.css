@@ -84,3 +84,34 @@
 .block {
   display: block;
 }
+.btn-list {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+.contacts-btn1 {
+  width: 196px;
+  color: #131313;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px; /* 128.571% */
+  background-color: yellow;
+  padding: 12px 40px;
+  border-radius: 10px;
+  margin-block: 24px;
+}
+
+.contacts-btn2 {
+  width: 196px;
+  color: #131313;
+  background-color: transparent;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px; /* 128.571% */
+  padding: 12px 40px;
+  margin-block-end: 24px;
+  border-radius: 10px;
+  border: 2px solid yellow;
+}
