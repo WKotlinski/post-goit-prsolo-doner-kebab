@@ -1,0 +1,39 @@
+.adventages-icon {
+  fill: black;
+}
+
+.adventages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.adventages-heading {
+  color: #fcfcfc;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+}
+
+.adventages-par {
+  text-align: center;
+  color: #fcfcfc;
+  font-size: 12px;
+  line-height: 170%; /* 20.4px */
+  width: 230px;
+  margin-block-end: 15px;
+}
