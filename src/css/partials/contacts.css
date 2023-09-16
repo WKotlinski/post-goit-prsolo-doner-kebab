@@ -1,0 +1,117 @@
+.contacts-wrapper {
+  margin: 0 auto;
+  padding: 5px 10px;
+  padding-bottom: 30px;
+  width: 280px;
+  height: fit-content;
+  background-color: white;
+  border: 1px solid limegreen;
+  border-radius: 20px;
+}
+
+.contact_heading {
+  width: fit-content;
+  display: block;
+  margin: 40px auto 20px;
+  padding: 4px 22px;
+  background-color: hsla(47, 92%, 64%, 1);
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.contact_heading-h4 {
+  color: #131313;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 186%; /* 22.32px */
+  letter-spacing: 0.48px;
+  margin-block-end: 8px;
+}
+.contacts__adress-link {
+  width: 190px;
+  color: #d6936d;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 183%; /* 21.96px */
+  letter-spacing: 0.48px;
+  display: block;
+  margin-block-end: 24px;
+}
+
+.contact-location {
+  border-block-end: 1px solid hsla(0, 0%, 61%, 0.3);
+  margin-block-end: 24px;
+}
+
+.contacts-worktime p {
+  color: #131313;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 186%; /* 22.32px */
+}
+
+.time-zone {
+  color: #ababab;
+
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 186%; /* 22.32px */
+  margin-block-end: 8px;
+}
+
+.contacts-worktime {
+  border-block-end: 1px solid hsla(0, 0%, 61%, 0.3);
+  margin: 24px 0;
+}
+
+.contacts-contacts {
+  width: 111px;
+  height: 19px;
+  color: #131313;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 160%; /* 19.2px */
+}
+
+.contacts-contacts a {
+  display: block;
+  color: #131313;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 160%; /* 19.2px */
+  margin-block-end: 10px;
+}
+
+.block {
+  display: block;
+}
+.btn-list {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+.contacts-btn1 {
+  width: 196px;
+  color: #131313;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px; /* 128.571% */
+  background-color: yellow;
+  padding: 12px 40px;
+  border-radius: 10px;
+  margin-block: 24px;
+}
+
+.contacts-btn2 {
+  width: 196px;
+  color: #131313;
+  background-color: transparent;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px; /* 128.571% */
+  padding: 12px 40px;
+  margin-block-end: 24px;
+  border-radius: 10px;
+  border: 2px solid yellow;
+}
